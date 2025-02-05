@@ -3,7 +3,7 @@
 The paper is currently under review.
 * Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)
 
-Code implementation of  [MobiSys 2025] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.
+Code implementation of  [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.
 Base code referred ->
 Open-Sora : Democratizing Efficient Video Production for All 
 
