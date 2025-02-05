@@ -1,4 +1,4 @@
-# [Mobisys 2025] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices
+# [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices
 
 The paper is currently under review.
 * Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)
