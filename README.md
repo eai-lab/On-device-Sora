@@ -2,6 +2,8 @@
 
 * Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)
 
+**Paper**: https://arxiv.org/abs/2502.04363
+
 Code implementation of  [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.
 Base code referred ->
 Open-Sora : Democratizing Efficient Video Production for All 
