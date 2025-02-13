@@ -72,7 +72,7 @@ python3 export-vae-spatial.py
 ### Required
 * Mac device for xcode
 * Apple Account to build and launch the app
-* iPhonne: over iPhone 15 pro
+* iPhone: over iPhone 15 pro
 * iOS version: over 18
 * All MLPackage (T5, STDiT, VAE)
 
