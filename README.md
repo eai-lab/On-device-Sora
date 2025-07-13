@@ -1,28 +1,25 @@
-# [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices
+# Mobile-Optimized Video Diffusion: A Training-Free Approach Toward Deploying Text-to-Video Generation on Mobile Devices
 
-* Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)
+This repository provides code for * Mobile-Optimized Video Diffusion: A Training-Free Approach Toward
+Deploying Text-to-Video Generation on Mobile Devices*.
+It is based on the implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)
 
-**Paper**: https://arxiv.org/abs/2502.04363
-
-Code implementation of  [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.
-Base code referred ->
-Open-Sora : Democratizing Efficient Video Production for All 
 
 ## Introduction
 
-This repository provides code for *On-device Sora*, which is an open-sourced implementation of paper named *On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices*. 
+Mobile-Optimized Video Diffusion (MOVD) if the first model training-free solution for diffusion-based on-device text-to-video generation that operates efficiently on smartphone-grade devices.
 
+MOVD proposes two novel techniques:
+- *Linear Proportional Leap (LPL)* reduces the excessive denoising steps required in video diffusion through an efficient leap-based approach
+- *Temporal Dimension Token Merging (TDTM)* minimizes intensive token-processing computation in attention layers by merging consecutive tokens along the temporal dimension
 
-### On-Device Sora
-*On-device Sora* applies Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM), and Concurrent Inference with Dynamic Loading (CI-DL) to enable efficient video generation on the iPhone 15 Pro.
+MOVD proposes an implementation technique to address the limited memory challenge.
+- *Concurrent Inference with Dynamic Loading (CI-DL)* enables large models to be split into smaller segments for execution in limited memory environment.
 
 ![On-Device_Sora](./Figures/overview.jpg)
 
-### Open-Sora
 
-[Open-Sora](https://github.com/hpcaitech/Open-Sora) is a baseline model of On-Device Sora, an open-source project for video generation, and a T2V Diffusion model that can produce videos based on text input.
-
-## How to convert each model to MLPackage for On-device Sora
+## How to convert each model to MLPackage
 
 ## Package Dependencies
 
@@ -72,7 +69,7 @@ python3 export-vae-spatial.py
 ### Required
 * Mac device for xcode
 * Apple Account to build and launch the app
-* iPhone: over iPhone 15 pro
+* iPhonne: over iPhone 15 pro
 * iOS version: over 18
 * All MLPackage (T5, STDiT, VAE)
 
