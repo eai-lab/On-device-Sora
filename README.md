@@ -1,7 +1,7 @@
 # Mobile-Optimized Video Diffusion: A Training-Free Approach Toward Deploying Text-to-Video Generation on Mobile Devices
 
-This repository provides code for *Mobile-Optimized Video Diffusion: A Training-Free Approach Toward
-Deploying Text-to-Video Generation on Mobile Devices*.
+This repository provides code for **Mobile-Optimized Video Diffusion: A Training-Free Approach Toward
+Deploying Text-to-Video Generation on Mobile Devices**.
 It is based on the implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)
 
 
