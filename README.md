@@ -13,7 +13,7 @@ MOVD proposes two novel techniques:
 - *Linear Proportional Leap (LPL)* reduces the excessive denoising steps required in video diffusion through an efficient leap-based approach
 - *Temporal Dimension Token Merging (TDTM)* minimizes intensive token-processing computation in attention layers by merging consecutive tokens along the temporal dimension
 
-MOVD proposes an implementation technique to address the limited memory challenge.
+MOVD proposes an implementation technique to address the limited memory challenge:
 - *Concurrent Inference with Dynamic Loading (CI-DL)* enables large models to be split into smaller segments for execution in limited memory environment.
 
 ![On-Device_Sora](./Figures/overview.jpg)
