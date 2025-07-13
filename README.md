@@ -21,9 +21,8 @@ MOVD proposes an implementation technique to address the limited memory challeng
 
 ## How to convert each model to MLPackage
 
-## Package Dependencies
+### Package Dependencies
 
-### Dependency 
 ```
 cd Device_conversion
 
@@ -36,21 +35,21 @@ pip install -r requirements/requirements-convert.txt
 pip install -v .
 ```
 
-## Converting
+### Converting
 
-### T5 Converting
+#### T5 Converting
 ```
 cd t5
 python3 export-t5.py
 ```
 
-### STDiT Convering
+#### STDiT Convering
 ```
 cd stdit3
 python3 export-stdit3.py
 ```
 
-### VAE Converting
+#### VAE Converting
 When you run `export-vae-spatial.py`, There are some error that is `Fatal Python error: PyEval_SaveThread`.
 To address this error, you should only run one code block for each VAE part. Comment out the rest.
 
