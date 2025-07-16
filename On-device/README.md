@@ -1,4 +1,4 @@
-# On-Device-Sora
+# On-Device-Open-Sora
 
 ### Required
 * Mac device for xcode
