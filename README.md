@@ -8,7 +8,7 @@ It is based on the implementation of [Open-Sora](https://github.com/hpcaitech/Op
 
 ## Introduction
 
-Mobile-Optimized Video Diffusion (MOVD) if the first model training-free solution for diffusion-based on-device text-to-video generation that operates efficiently on smartphone-grade devices.
+Mobile-Optimized Video Diffusion (MOVD) is the first model training-free solution for diffusion-based on-device text-to-video generation that operates efficiently on smartphone-grade devices.
 
 MOVD proposes two novel techniques:
 - *Linear Proportional Leap (LPL)* reduces the excessive denoising steps required in video diffusion through an efficient leap-based approach
