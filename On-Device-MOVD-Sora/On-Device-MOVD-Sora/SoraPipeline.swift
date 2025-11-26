@@ -73,7 +73,7 @@ public struct SoraPipeline {
           }
       }
       let part2 = ManagedMLModel(modelURL: baseURL.appending(path: "stdit3_part2.mlmodelc"), config: config_stdit)
-      STDiT = On_device_Sora.STDiT(part1: part1, spatialAndTemporals: spatialAndTemporalBlocks, STDiTTDTMBLocks: STDiTTDTMBLocks, part2: part2)
+        STDiT = On_Device_MOVD_Sora.STDiT(part1: part1, spatialAndTemporals: spatialAndTemporalBlocks, STDiTTDTMBLocks: STDiTTDTMBLocks, part2: part2)
       } else {
       STDiT = nil
     }

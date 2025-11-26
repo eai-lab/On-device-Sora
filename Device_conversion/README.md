@@ -1,4 +1,4 @@
-## How to convert each model to MLPackage for On-device Sora
+## How to convert each model to MLPackage for On-device MOVD Sora
 
 ## Package Dependencies
 
