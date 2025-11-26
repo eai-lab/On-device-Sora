@@ -1,10 +1,10 @@
-# Mobile-Oriented Video Diffusion: Enabling Text-to-Video Generation on Mobile Devices Without Retraining, Compression, or Pruning
+# [WACV 2026] Mobile-Oriented Video Diffusion: Enabling Text-to-Video Generation on Mobile Devices Without Retraining, Compression, or Pruning
 
 This repository provides code for **Mobile-Oriented Video Diffusion: Enabling Text-to-Video Generation on Mobile Devices Without Retraining, Compression, or Pruning**.
 It is based on the implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora).
 
 
-*The source paper is currently under review.*
+Accepted to to WACV 2026!
 
 ## Introduction
 
