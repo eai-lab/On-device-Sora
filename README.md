@@ -1,29 +1,32 @@
-# [WACV 2026] Mobile-Oriented Video Diffusion: Enabling Text-to-Video Generation on Mobile Devices Without Retraining, Compression, or Pruning
+# [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices
 
-This repository provides code for **Mobile-Oriented Video Diffusion: Enabling Text-to-Video Generation on Mobile Devices Without Retraining, Compression, or Pruning**.
-It is based on the implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora).
+* Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)
 
+**Paper**: https://arxiv.org/abs/2502.04363
 
-Accepted to to WACV 2026!
+Code implementation of  [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.
+Base code referred ->
+Open-Sora : Democratizing Efficient Video Production for All 
 
 ## Introduction
 
-Mobile-Optimized Video Diffusion (MOVD) is the first model training-free solution for diffusion-based on-device text-to-video generation that operates efficiently on smartphone-grade devices.
+This repository provides code for *On-device Sora*, which is an open-sourced implementation of paper named *On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices*. 
 
-MOVD proposes two novel techniques:
-- *Linear Proportional Leap (LPL)* reduces the excessive denoising steps required in video diffusion through an efficient leap-based approach
-- *Temporal Dimension Token Merging (TDTM)* minimizes intensive token-processing computation in attention layers by merging consecutive tokens along the temporal dimension
 
-MOVD proposes an implementation technique to address the limited memory challenge:
-- *Concurrent Inference with Dynamic Loading (CI-DL)* enables large models to be split into smaller segments for execution in limited memory environment.
+### On-Device Sora
+*On-device Sora* applies Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM), and Concurrent Inference with Dynamic Loading (CI-DL) to enable efficient video generation on the iPhone 15 Pro.
 
 ![On-Device_Sora](./Figures/overview.jpg)
 
+### Open-Sora
 
-## How to convert each model to MLPackage
+[Open-Sora](https://github.com/hpcaitech/Open-Sora) is a baseline model of On-Device Sora, an open-source project for video generation, and a T2V Diffusion model that can produce videos based on text input.
 
-### Package Dependencies
+## How to convert each model to MLPackage for On-device Sora
 
+## Package Dependencies
+
+### Dependency 
 ```
 cd Device_conversion
 
@@ -36,21 +39,21 @@ pip install -r requirements/requirements-convert.txt
 pip install -v .
 ```
 
-### Converting
+## Converting
 
-#### T5 Converting
+### T5 Converting
 ```
 cd t5
 python3 export-t5.py
 ```
 
-#### STDiT Convering
+### STDiT Convering
 ```
 cd stdit3
 python3 export-stdit3.py
 ```
 
-#### VAE Converting
+### VAE Converting
 When you run `export-vae-spatial.py`, There are some error that is `Fatal Python error: PyEval_SaveThread`.
 To address this error, you should only run one code block for each VAE part. Comment out the rest.
 
@@ -69,7 +72,7 @@ python3 export-vae-spatial.py
 ### Required
 * Mac device for xcode
 * Apple Account to build and launch the app
-* iPhonne: over iPhone 15 pro
+* iPhone: over iPhone 15 pro
 * iOS version: over 18
 * All MLPackage (T5, STDiT, VAE)
 
@@ -78,8 +81,8 @@ python3 export-vae-spatial.py
 You can download and use the converted models from the following link. [[Download](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]
 
 ### Run the app
-* Implement xcode project by clicking On-Device-MOVD-Sora/On-Device-MOVD-Sora.xcodeproj
+* Implement xcode project by clicking On-device/On-device-Sora.xcodeproj
 * Change the Team (None -> Your Apple account) in TARGETS/Signing&Capabilities
 * Launch the app
 ### Example artifacts
-![On-device-Sora-Example1](./Figures/On-Device-MOVD-Sora-Example1.gif)
+![On-device-Sora-Example1](./Figures/On-device-Sora-Example1.gif)

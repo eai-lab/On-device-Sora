@@ -11,13 +11,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C39C1122CFC53CB0076BD8F /* On-Device-MOVD-Sora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On-Device-MOVD-Sora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C39C1122CFC53CB0076BD8F /* On-device-Sora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On-device-Sora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0C39C1142CFC53CB0076BD8F /* On-Device-MOVD-Sora */ = {
+		0C39C1142CFC53CB0076BD8F /* On-device-Sora */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "On-Device-MOVD-Sora";
+			path = "On-device-Sora";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +37,7 @@
 		0C39C1092CFC53CB0076BD8F = {
 			isa = PBXGroup;
 			children = (
-				0C39C1142CFC53CB0076BD8F /* On-Device-MOVD-Sora */,
+				0C39C1142CFC53CB0076BD8F /* On-device-Sora */,
 				0C39C1132CFC53CB0076BD8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		0C39C1132CFC53CB0076BD8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C39C1122CFC53CB0076BD8F /* On-Device-MOVD-Sora.app */,
+				0C39C1122CFC53CB0076BD8F /* On-device-Sora.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,9 +53,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C39C1112CFC53CB0076BD8F /* On-Device-MOVD-Sora */ = {
+		0C39C1112CFC53CB0076BD8F /* On-device-Sora */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C39C1202CFC53CC0076BD8F /* Build configuration list for PBXNativeTarget "On-Device-MOVD-Sora" */;
+			buildConfigurationList = 0C39C1202CFC53CC0076BD8F /* Build configuration list for PBXNativeTarget "On-device-Sora" */;
 			buildPhases = (
 				0C39C10E2CFC53CB0076BD8F /* Sources */,
 				0C39C10F2CFC53CB0076BD8F /* Frameworks */,
@@ -66,14 +66,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0C39C1142CFC53CB0076BD8F /* On-Device-MOVD-Sora */,
+				0C39C1142CFC53CB0076BD8F /* On-device-Sora */,
 			);
-			name = "On-Device-MOVD-Sora";
+			name = "On-device-Sora";
 			packageProductDependencies = (
 				0C39C1472CFC54EF0076BD8F /* Transformers */,
 			);
 			productName = "On-device-Sora";
-			productReference = 0C39C1122CFC53CB0076BD8F /* On-Device-MOVD-Sora.app */;
+			productReference = 0C39C1122CFC53CB0076BD8F /* On-device-Sora.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +91,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C39C10D2CFC53CB0076BD8F /* Build configuration list for PBXProject "On-Device-MOVD-Sora" */;
+			buildConfigurationList = 0C39C10D2CFC53CB0076BD8F /* Build configuration list for PBXProject "On-device-Sora" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C39C1112CFC53CB0076BD8F /* On-Device-MOVD-Sora */,
+				0C39C1112CFC53CB0076BD8F /* On-device-Sora */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"On-Device-MOVD-Sora/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"On-device-Sora/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -274,7 +274,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.On-Device-MOVD-Sora";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.On-device-Sora";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -293,7 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"On-Device-MOVD-Sora/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"On-device-Sora/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.On-Device-MOVD-Sora";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.On-device-Sora";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C39C10D2CFC53CB0076BD8F /* Build configuration list for PBXProject "On-Device-MOVD-Sora" */ = {
+		0C39C10D2CFC53CB0076BD8F /* Build configuration list for PBXProject "On-device-Sora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C39C11E2CFC53CC0076BD8F /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C39C1202CFC53CC0076BD8F /* Build configuration list for PBXNativeTarget "On-Device-MOVD-Sora" */ = {
+		0C39C1202CFC53CC0076BD8F /* Build configuration list for PBXNativeTarget "On-device-Sora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C39C1212CFC53CC0076BD8F /* Debug */,

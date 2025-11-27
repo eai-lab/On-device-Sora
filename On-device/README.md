@@ -1,4 +1,4 @@
-# On-Device-MOVD-Sora
+# On-Device-Sora
 
 ### Required
 * Mac device for xcode
@@ -12,6 +12,6 @@
 You can download and use the converted models from the following link. [[Download](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]
 
 ### Run the app
-* Implement xcode project by clicking On-Device-MOVD-Sora/On-Device-MOVD-Sora.xcodeproj
+* Implement xcode project by clicking On-device/On-device-Sora.xcodeproj
 * Change the Team (None -> Your Apple account) in TARGETS/Signing&Capabilities
 * Launch the app

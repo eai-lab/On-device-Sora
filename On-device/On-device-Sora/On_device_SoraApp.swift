@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct On_Device_MOVD_SoraApp: App {
+struct On_device_SoraApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
